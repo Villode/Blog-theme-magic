@@ -1,0 +1,13 @@
+.author-content.author-content-item {
+  height: 19rem;
+  background-color: var(--anzhiyu-main);
+  background-position: left 28%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--anzhiyu-white);
+  overflow: hidden;
+  margin-top: 0;
+  background: url(https://ntiwnzcz5rc46l-c5zyo77ym5oir5zac5qyi5l2g.520150.xyz/yun.webp) top / cover no-repeat;
+  /* background-size: 400%; */
+  animation: gradient 15s ease infinite;
+}
