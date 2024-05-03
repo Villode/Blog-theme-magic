@@ -107,15 +107,24 @@ a.categoryButton:after {
 [data-theme="dark"] a.categoryButton.blue {
   background: linear-gradient(to right, #0653b8b0, #2fcbff);
   background-size: 200%;
+    /* 兼容大多数现代浏览器 */
   backdrop-filter: blur(5px);
+  /* Safari 和其他 WebKit 内核浏览器 */
+  -webkit-backdrop-filter: blur(5px);
 }
 [data-theme="dark"] a.categoryButton.red {
   background: linear-gradient(to right, #e22a16b0, #da980c);
   background-size: 200%;
+    /* 兼容大多数现代浏览器 */
   backdrop-filter: blur(5px);
+  /* Safari 和其他 WebKit 内核浏览器 */
+  -webkit-backdrop-filter: blur(5px);
 }
 [data-theme="dark"] a.categoryButton.green {
   background: linear-gradient(to right, #099e74b0, #0ea4a4);
   background-size: 200%;
+    /* 兼容大多数现代浏览器 */
   backdrop-filter: blur(5px);
+  /* Safari 和其他 WebKit 内核浏览器 */
+  -webkit-backdrop-filter: blur(5px);
 }
