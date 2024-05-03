@@ -91,7 +91,7 @@
     background: var(--anzhiyu-background);
   }
   [data-theme="dark"] #category-bar.category-bar {
-    background: var(--anzhiyu-black);
+    background: #00000059;
   }
   #category-bar.category-bar:hover {
     border: none;
