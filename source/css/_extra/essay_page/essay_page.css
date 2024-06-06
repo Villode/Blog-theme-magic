@@ -3,12 +3,16 @@ body[data-type="essay"] #page {
   box-shadow: none !important;
   padding: 0 !important;
   background: transparent !important;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 body[data-type="essay"] #page .page-title {
   display: none;
 }
 body[data-type="essay"] #web_bg {
-  background: var(--anzhiyu-background);
+  /* background: var(--anzhiyu-background); */
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 #bber .bber-container-img {
   display: flex;
@@ -97,7 +101,7 @@ body[data-type="essay"] #web_bg {
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  background: var(--anzhiyu-card-bg);
+  /* background: var(--anzhiyu-card-bg); */
   box-shadow: var(--anzhiyu-shadow-border);
   margin-right: 2%;
 }

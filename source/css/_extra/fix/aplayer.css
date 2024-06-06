@@ -149,7 +149,8 @@
 }
 
 #nav-music .aplayer {
-  background: var(--card-bg);
+  /* background: var(--card-bg); */
+  background: #12121200;
   border-radius: 60px;
   height: 41px;
   display: flex;
@@ -160,7 +161,7 @@
 }
 
 #nav-music.playing .aplayer {
-  background: var(--anzhiyu-main);
+  /* background: var(--anzhiyu-main); */
   border: var(--style-border-hover);
   backdrop-filter: saturate(180%) blur(20px);
     /* 兼容大多数现代浏览器 */
